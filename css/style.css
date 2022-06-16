@@ -17,7 +17,7 @@ img {
   max-width: 100%;
 }
 
-/* ingresar */
+/* index.html */
 .fondoLibr {
   background-image: url(../img/alfons-morales-YLSwjSy7stw-unsplash.jpg);
   background-size: cover;
@@ -124,7 +124,7 @@ img {
   transition: 0.4s;
 }
 
-/* index.html */
+/* inicio.html */
 .carousel-inner {
   margin: 0 auto;
   max-width: 95%;
@@ -323,7 +323,9 @@ img {
   }
   .accordion {
     width: 95%;
-    margin: 0;
+  }
+  .accordion-body {
+    max-height: 15rem;
   }
   .transp {
     font-size: 0.9rem;
